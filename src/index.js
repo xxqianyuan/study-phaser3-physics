@@ -6,7 +6,8 @@ const config = {
   type: Phaser.AUTO,
   parent: "phaser-example",
   width: 800,
-  height: 600,
+  height: 400,
+  // 配置场景，第一个为默认场景
   scene: [StudyArcade, StudyMatter],
 };
 // 创建游戏实例
