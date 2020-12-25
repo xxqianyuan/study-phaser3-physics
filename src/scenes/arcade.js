@@ -109,7 +109,10 @@ export class StudyArcade extends Scene {
   /**
    * 更新内容
    */
-  update() {}
+  update() {
+    // 切换场景
+    this.scene.start('StudyMatter')
+  }
 
 }
 
